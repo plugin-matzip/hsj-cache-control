@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Cache",
+  "description": "Clear browser cache for a given time range.",
+  "version": "1.0",
+  "action": {
+    "default_icon": "/images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Clear Cache"
+  },
+  "permissions": ["browsingData"],
+  "host_permissions": ["<all_urls>"]
+}

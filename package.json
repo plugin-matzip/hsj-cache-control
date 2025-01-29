@@ -1,0 +1,22 @@
+{
+  "name": "langcursor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "style": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "build": "webpack"
+  },
+  "author": "sunbjun1116",
+  "license": "ISC",
+  "type": "module",
+  "description": "first chrmoe plugin from plugin-matzip",
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "@types/node": "^22.10.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
